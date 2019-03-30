@@ -1,0 +1,23 @@
+
+
+.icon-Header-li{
+    padding:10px 9px;
+    transition: .2s;
+ 
+}
+.Login{
+    color: #757575!important;
+    font-size: 0.9em;
+    font-family: 'Gloria Hallelujah', cursive;
+    display: inline;
+}
+ /* Btn-toggle */
+.animatedBtn {
+    -webkit-transform: rotate(0deg); transform: rotate(0deg);
+      -webkit-transition: 0.2s ease; transition: 0.2s ease;
+  }
+.animatedBtn:hover {
+      -webkit-transform: rotate(90deg); transform: rotate(90deg);
+  }
+
+

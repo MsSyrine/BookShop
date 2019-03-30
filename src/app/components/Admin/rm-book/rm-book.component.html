@@ -1,0 +1,35 @@
+<body >
+
+    <!-- <section class="my-5"> -->
+         <!-- Section heading -->
+          <div class="row">
+            <div class="col-lg-5 mb-lg-0 mb-4">
+             <!-- Form2 -->
+             <h1>- Deleting a book?-</h1>
+             <form (ngSubmit)="onSubmitDeleteBook(booktoForm)" #booktoForm="ngForm">
+                 <input placeholder="Id" type="number" #id="ngModel"[(ngModel)]= "book.id" name="first"required/>
+                 <span class= "validated" *ngIf ="id.touched && !id.valid">Please, enter a valid id.</span>
+
+   
+               <button>Send</button>
+               </form>
+             <!-- Formr -->
+            </div>
+            <!-- Grid column -->
+     
+            <div class = "background"> 
+                <img  src="/assets/img/rm.png" class="center" alt="photo">
+
+                      </div>
+                      <!-- Grid column -->
+                
+                      </div>
+             
+             
+      
+          <!-- Grid row --> 
+      <!-- </section> -->
+        
+      
+        </body>
+        

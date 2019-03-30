@@ -1,0 +1,85 @@
+[
+    { 
+        "id": "2baf70d1-42bb-4437-b551-e5fed5a87abe", 
+        "image":"https://images-na.ssl-images-amazon.com/images/I/51mogRTmKbL._SX327_BO1,204,203,200_.jpg",
+        "title": "Platform Revolution", 
+        "description": "Uber. Airbnb. Amazon. Apple. PayPal. All of these companies disrupted their markets when they launched. Today they are industry leaders. What's the secret to their success? These cutting-edge businesses are built on platforms: two-sided markets that are revolutionising the way we do business. ",
+        "price": 10.50,
+        "date": 2018,
+        "category":"adventure",
+        "author":"Geoffrey G Parker"
+
+    },
+
+    {   "id": "12cfb892-aac0-4c5b-94af-521852e46d6a", 
+        "image":"https://images-na.ssl-images-amazon.com/images/I/41yDXBdsjhL.jpg",
+        "title": "Applied Artificial Intelligence",
+        "description": "Artificial intelligence is the buzzword of the day. You've no doubt read your fair share of media hype either proclaiming doom and gloom where robots seize our jobs or prophesying a new utopia where AI cures all our human problems.",
+        "price": 16.14,
+        "date": 2018,
+        "category":"adventure"
+    },
+
+    {   "id": "58611129-2dbc-4a81-a72f-77ddfc1b1b49", 
+        "image":"https://images-na.ssl-images-amazon.com/images/I/51j1bH4m52L.jpg",
+        "title": "Design of Business", 
+        "description": "Most companies today have innovation envy. They yearn to come up with a game—changing innovation like Apple's iPod, or create an entirely new category like Facebook. ",
+        "price": 21.72,
+        "date": 2018,
+        "category":"adventure"
+    },
+    { 
+        "id": "ea660b10-85c4-4ae3-8a5f-41cea3648e3e", 
+        "image":"https://images-na.ssl-images-amazon.com/images/I/51VsfoIFiKL.jpg",
+        "title": "Playing to Win", 
+        "description": "Strategy is not complex. But it is hard. It’s hard because it forces people and organizations to make specific choices about their future—something that doesn’t happen in most companies." ,
+        "price": 16.35,
+        "date": 2018,
+        "category":"adventure"
+    },
+    { 
+        "id": "4e236f34-b981-41c3-8c65-f8c9000b94e7", 
+        "image":"https://images-na.ssl-images-amazon.com/images/I/51TXpNyf6PL.jpg",
+        "title": "Your Strategy Needs a Strategy", 
+        "description": "Executives are bombarded with bestselling ideas and best practices for achieving competitive advantage, but many of these ideas and practices contradict each other.",  
+        "price": 17.60,
+        "date": 2018,
+        "category":"adventure"
+    },
+     { 
+         "id": "ebbb6b7c-945c-41ee-a792-de0e43191bd8", 
+         "image":"https://images-na.ssl-images-amazon.com/images/I/41XCxUCl1HL.jpg",
+         "title": "Strategy That Works", 
+         "description": "Two-thirds of executives say their organizations don’t have the capabilities to support their strategy. In Strategy That Works, Paul Leinwand and Cesare Mainardi explain why. ",
+         "price": 13.89,
+         "date": 2018,
+         "category":"adventure"
+    },
+    { 
+        "id": "1b67aa9a-2e4a-45af-ac98-64d6ad15b16c", 
+        "image":"https://images-na.ssl-images-amazon.com/images/I/51weJoT1hkL.jpg",
+        "title": "Fintech in a Flash", 
+        "description": "Welcome to the exciting world of Fintech! The financial services technology industry is booming, with investment in excess of $20 billion just in the last year.",
+        "price": 16.99,
+        "date": 2018,
+        "category":"adventure"
+    },
+    { 
+         "id": "ff24da26-a969-4f0e-ba1e-a122ead6c6e3",
+         "image":"https://images-na.ssl-images-amazon.com/images/I/417XIiSoqkL.jpg",
+         "title": "Swipe to Unlock", 
+         "description": "Authored by Product Managers at Google, Microsoft, and Facebook, Swipe to Unlock is a guide which enables anyone to understand the core concepts of tech and the business strategy behind it. ",
+         "price": 9.26,
+         "date": 2017,
+         "category":"illustrated"
+    },
+    { 
+        "id": "0440483e-ca0e-4120-8c50-4c8cd9b965d6", 
+        "image":"https://images-na.ssl-images-amazon.com/images/I/41sYkAlp2ML.jpg",
+        "title": "The Product Book", 
+        "description": "No one asked you to show up. Every experienced product manager has heard some version of those words at some point in their career. Think about a company.",
+        "price": 19.99,
+        "date": 2017,
+        "category":"illustrated"
+    }
+]

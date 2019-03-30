@@ -1,0 +1,80 @@
+
+.btn[class*="btn-outline-"] {
+    padding-top: .2rem;
+    padding-bottom: .2rem;
+    width: 5%;
+}
+
+.filter{
+    margin-top: 4%;
+    font-size: 1em;
+    font-family: 'Karla', sans-serif;
+    color:black;
+    margin-left: 0;
+    height: 20vh;
+}
+.borderSearch {
+    border-bottom: black 1px solid !important;
+}
+.filter-links{
+    list-style:none;
+}
+.filter-links li a{
+    color:black;
+}
+.filter-links li a:hover{
+    color:#4285f4;
+}
+a:hover {
+    transition: all .2s ease-in-out;
+    text-decoration: none;
+}
+.card{
+    padding-bottom: 30px;
+    margin-top: 10% !important;
+}
+img{
+    height: 200px;
+}
+
+.custom-price{
+    position: absolute;
+    bottom: 0;
+    left:20px;
+    z-index: 1;
+    font-size: 1.1em;
+
+}
+.flex { 
+    display: flex; 
+    flex-direction: row; 
+
+}
+
+.btn-books{
+    position: absolute;
+    bottom: 2px;
+    right: 20px;
+    z-index: 1;
+
+}
+.btn[class*="btn-outline-"] {
+    padding-top: .3rem;
+    padding-bottom: .3rem;
+    width: 5%;
+}
+#custom-size{
+    font-size: 0.6em;
+}
+.contanier-bot{
+    height: 200px;
+    width: 100%;
+}
+input[type="text"]{
+    border-bottom: 1px solid #f7f5f5;
+}
+
+@media (max-width: 767.98px) { 
+
+   
+ }

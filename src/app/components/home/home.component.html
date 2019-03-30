@@ -1,0 +1,65 @@
+<!-- Start main index content -->
+<div class="background">
+  <div class = "Title-Container"r>
+     
+
+    <h1 class="strong-title"><br> 
+      <img  src="/assets/img/thebs_logo.png" class="img" alt="photo">
+      <hr> Today a Reader </h1>
+    <h1> Tomorrow a Leader.</h1>  <br>
+
+  </div>
+
+  <div class="container aboutUs-box box-shadow ">
+    <div class="col-12">
+
+      <div class="row container-fluid text-center">
+
+        <em>
+          Every aspect of  
+           <strong> our shop </strong> is designed to help you discover new books and ideas, and encourage
+          interdisciplinary thinking.
+          At  
+          <strong> our shop </strong> we curate our books to maximise serendipity.
+          Our shelves are arranged according to broad themes like 'Wanderlust', ‘Enchantment for Disenchanted’ and ‘The
+          City’, so you’re constantly encountering titles you might not have come across otherwise.
+        </em>
+      </div>
+    </div>
+  </div>
+  <!-- Start Best Sales  -->
+  <div class="container text-center best-Sell">
+    <div class="row ">
+      <div class="col">
+        <h5 class="text-center"> <strong> RECOMMENDED FOR YOU <span *ngIf = "name"> {{name}}!</span></strong></h5>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div  *ngFor="let book of books|Filter: {inStock : 15}| slice:0:4;">
+          <hr>
+          <!-- Card image -->
+          <div class="col-sm-12 my-1 ">
+            <img class="card-image-best-Sell " src="{{book.photo}}" alt="Card image cap">
+            <a>
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+          <!-- Card content -->
+          <div>
+            <!-- Title -->
+            <h4 class="card-text"> {{book.title}} </h4>
+            <!-- Text -->
+            <p class="card-text">{{book.ourPrice}}dt</p>
+            <span  class ="salesFont"*ngIf="book.ourPrice < 14"  [style.color]="book.ourPrice < 14 ?  'orange':'transparent'"
+              >SALES
+            </span> 
+            
+          </div>
+        </div>
+      </div>
+    </div>  
+</div>
+
+<!-- Coockies Modal -->
+

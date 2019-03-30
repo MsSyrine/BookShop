@@ -1,0 +1,33 @@
+<form class="form-inline waves-light" mdbWavesEffect>
+  <div class="md-form mt-0">
+    <input #box (keyup)="onKey(box.value)"[(ngModel)]="inputResult"
+    name= "inputResult"
+    class="form-control" 
+    type="text" placeholder="Search"> 
+  </div>
+  <button [routerLink]="['/searchBook']" [routerLinkActive]="['active']" (click)="onClickMe(inputResult)" type="button" class="btn btn-sm btn-outline-warning waves-effect px-3 mb-4"><i class="fa fa-search" aria-hidden="true"></i></button>
+</form>
+
+<div class="col-9" >
+  <div class="container book-list-container flex "  >
+      <div class="row " >
+            <div class="card col-md-3 m-2 " *ngFor = "let match of matches" >
+              <div class="view">
+                <img src="{{match.image}}" class="card-img-top" alt="photo">
+                <a href="#">
+                    <div class="mask rgba-white-slight"></div>
+                </a>
+              </div>     
+                        <div class="card-block mb-2">
+                          <h5>{{match.title}}</h5>
+                          <p id="custom-size">{{match.description}}</p>                      
+                        </div>
+                        <p class="custom-price mt-5">${{match.price}}</p>
+                        <button type="button" class="btn btn-books btn-sm btn-outline-dark waves-effect flex text-center px-3"><i class="fas fa-shopping-cart" aria-hidden="true"></i></button> 
+                       
+              </div>
+              <div class="contanier-bot"></div>
+      </div>
+    <!--End Book-section -->
+</div>
+</div>

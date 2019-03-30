@@ -1,0 +1,48 @@
+<body >
+
+    <!-- <section class="my-5"> -->
+         <!-- Section heading -->
+          <div class="row">
+              <h1>- Adding a book?-</h1>
+              <div class="col-lg-5 mb-lg-0 mb-4">            
+           
+ <!-- Form1 -->
+             <form (ngSubmit)="onSubmitAddBook(BooktoForm)" #BooktoForm="ngForm">
+                 <input placeholder="id" type="number" #id="ngModel"[(ngModel)]= "book.id" name ="first"required/>
+                 <span class= "validated" *ngIf ="id.touched && !id.valid">Please, enter a valid id.</span>
+               
+                 <input placeholder="author" type="text" #author= "ngModel"[(ngModel)]= "book.author" name ="second"required/>
+                 <span class= "validated" *ngIf ="author.touched && !author.valid">Please, enter a valid name.</span>
+                 <input placeholder="title" type="text"#title = "ngModel"[(ngModel)]= "book.title" name ="third"required/>
+                 <span class= "validated" *ngIf ="title.touched && !title.valid">Please, enter a valid title.</span>
+                 <input placeholder="photo" type="url"#photo = "ngModel"[(ngModel)]= "book.photo" name ="four"required/>
+                 <span class= "validated" *ngIf ="photo.touched && !photo.valid">Please, enter a valid url.</span>
+                 <input placeholder="number Of Pages" type="number"#numberPages = "ngModel"[(ngModel)]= "book.ofPages" name ="five"required/>
+                 <span class= "validated" *ngIf ="numberPages.touched && !numberPages.valid">Please, enter a valid number of pages.</span>
+                   <div class="flex">
+                       <textarea name ="five" placeholder="description" rows="1" required></textarea>
+                       <span class= "validated"></span>
+                     </div>
+                   <button>Send</button>
+                   
+               
+</form>
+            </div>
+            <!-- Grid column -->
+     
+            <div class = "background"> 
+                <img  src="/assets/img/more.png" class="center" alt="photo">
+
+                      </div>
+                      <!-- Grid column -->
+                
+                      </div>
+             
+             
+      
+          <!-- Grid row --> 
+      <!-- </section> -->
+        
+      
+        </body>
+        

@@ -1,0 +1,38 @@
+<body [style.backgroundSize]="'cover'">
+
+  <div class="container" >
+    <h1> Shopping Cart</h1>
+    <table class="table table-xs">
+      <tr>
+        <th></th>
+        <th class="text-left ">Book</th>
+        <th class="text-left">Description</th>
+        <th class="text-left "></th>
+        <th class="text-right ">Price</th>
+      </tr>
+   
+      <tr class="item-row" *ngFor="let shoppingCarts of shoppingCart">
+            <div >
+                <a (click)="remove(shoppingCarts)" type="button" class=" product-removal text-black btn-floating " ><i class="fa fa-remove" aria-hidden="true"></i></a>
+            </div>
+        <td> <img src="{{shoppingCarts.photo}}"/></td>
+        <td>
+          <p> <strong>{{shoppingCarts.title}} <br>
+          </strong>
+          {{shoppingCarts.description}}</p>
+          <p></p>
+        </td>
+        <td class="text-right" title="Amount"></td>
+        <td class="text-right" title="Price">${{shoppingCarts.ourPrice}}</td>
+      
+        <td class="text-right" title="Total"></td>
+      </tr>
+      <tr class="total-row info">
+        <td class="text-right" colspan="4">Total</td>
+        <td class="text-right">${{getTotal()}}</td>
+      </tr>
+    </table>
+    <button (click)="Buy(shoppingCart)" type="button" class="btn btn-outline-primary btn-rounded waves-effect">CheckOut</button>
+  </div>
+  
+</body>

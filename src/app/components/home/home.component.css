@@ -1,0 +1,173 @@
+/* font-family: 'Gloria Hallelujah', cursive; */
+/* basics */
+
+a:link{
+    text-decoration:none;
+}
+
+h1 {
+    margin: 2% auto;
+    font-size: 3em;
+}
+h2 {
+    font-size: 1.4em;
+} 
+hr { 
+    border: 0px solid #FBD160; 
+    height: 0px; 
+    text-align: center; 
+    width: 100%;
+}
+a:link{
+    text-decoration:none;
+}
+h4{
+    font-size: 1em;
+}
+
+/* Title BoxA */
+.Title-Container{
+    padding: 5% 10%;
+    max-width: 40%;
+    height: 50em;
+    float: left;
+    font-family: 'M PLUS Rounded 1c', sans-serif;  
+    background-color: #FBD160;
+    color: whitesmoke;
+    margin-top: -145px;
+    font-weight: bold;
+ 
+}
+.strong-title{
+ margin: 0 auto;
+ font-size: 3em;
+ margin-top: 10%;
+}
+
+/* About Us Box */
+
+.aboutUs-box{
+    width: 50%;
+    height: auto;
+    color:#757575;
+    margin-top:4%;
+    margin-right:30px;
+    padding: 0.2%;
+    justify-content: center;
+    font-size: 0.8em;
+    position:relative;
+    border: #FBD160 1px solid;
+    letter-spacing: 0.2em;
+
+}
+.box-policies {
+    width: 30%;
+    background-color: #4285F4;
+    justify-content: center;
+    height: 4em;
+    margin-top:4%;
+    padding-top: 2%;    
+    color: white!important;
+    margin-right:1px;
+    font-size: 0.8em;
+}
+.box-policies a {
+    color: white!important;
+    margin-left:4%;
+    font-weight: bold;
+}
+/* BestSell Section */
+.flex { 
+    display: flex;
+    flex-wrap: wrap;
+  }  
+/* .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); } */
+
+.best-Sell{
+    width: 50%;
+    height: auto;
+    margin-top: 2%;
+    padding-top: 5%;
+    margin-right:30px;
+    justify-content: center;
+    position: relative;
+    z-index: -1;
+    bottom: 0;
+    font-family: 'M PLUS Rounded 1c', sans-serif; 
+    font-size:0.9em;
+    font-weight: regular;
+
+}
+.salesFont{
+    font-family: 'Gloria Hallelujah', cursive;
+    margin-top:0;
+    font-size:2em;
+}
+.card-image-best-Sell {
+    width:120px;
+    height: 150px!important;
+    margin: 1%;
+}
+strong{  
+    font-size:1em; 
+}
+.md-form {
+    bottom: 10px!important;
+}
+
+/* Responsive */
+
+@media (max-width: 717px){
+    .logo{
+        display: none;
+    }  
+    .logo-buy-page {
+        display: none;
+    }
+    .icons{
+        width:150px;
+    }
+    a{
+        font-size: 12px;
+    }
+    .aboutUs-box{
+        margin-right: 30%;
+        width: 90%;
+        display: none;
+    }
+    .best-Sell{
+       display: none;
+    }
+  
+    .Title-Container{
+        margin: 30px auto;
+        max-width: 100%;
+     
+    }
+}
+
+.img {
+    display: block;
+
+    width: 130%;
+}
+
+
+@media (max-width: 575.98px) {
+    .aboutUs-box{
+        width: 70%;
+        margin-top:2%;
+        margin-right: 2%;
+    }
+    .Title-Container{
+        margin: 20px auto;
+        padding-top:70px;
+        margin-top:-55px;
+        max-width: 100%;
+        height: 43em;
+        font-weight: bold;
+    }
+    .box-policies {
+        width: 100%;
+    }
+}

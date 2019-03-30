@@ -1,0 +1,241 @@
+
+.filter{
+    margin-top: 4%;
+    font-size: 1em;
+    font-family: 'Karla', sans-serif;
+    color:black;
+    margin-left: 0;
+    height: 20vh;
+}
+.borderSearch {
+    border-bottom: black 1px solid !important;
+}
+.filter-links{
+    list-style:none;
+}
+.filter-links li a{
+    color:black;
+}
+.filter-links li a:hover{
+    color:#4285f4;
+}
+.Serch-Title{
+    font-size: 4em;
+    color:#4285f4;
+}
+
+a:hover {
+    transition: all .2s ease-in-out;
+    text-decoration: none;
+}
+.card{
+    padding-bottom: 30px;
+    margin: 2% !important;
+    margin-top: 5% !important;
+    box-shadow: none;
+    font-weight: 300; 
+}
+
+
+.card-block{
+    width: 200px;
+    size: 100px;
+    display: inline-block;
+    vertical-align: top;
+    *display: inline;
+    *zoom: 1;
+}
+
+.card:hover{
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.card-match{
+    padding-bottom: 50px;
+    margin: 2% !important;
+    margin-top:10%!important;
+    
+    box-shadow: none;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    height: 295px;
+}
+/* Modal*/
+.img-modal{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    height: 295px;
+}
+.product-rating{
+    margin-top:2px;
+    margin-left: 15px;
+  }
+i.fa-star{
+    color:#aaa; 
+    display:inline-block;}
+i.fa-star.rating{
+    color: rgb(232, 217, 31);}
+.product-rating-details{
+    display:inline-block; 
+    padding-left: 10px;}
+
+.product-author {
+    margin-top: 25px;
+  }
+.btn-books-info-modal{
+    position: absolute;
+    bottom: 30px;
+    font-size:1em;
+    z-index: 1;
+    border:none!important;
+    box-shadow: none!important;
+}
+.close{
+  border:none!important;
+  box-shadow: none!important;
+  font-size: 1em;
+}
+
+
+/* Modal Ends  */
+.custom-price{
+    position: absolute;
+    bottom: 0;
+    left:20px;
+    z-index: 1;
+    font-size: 1.3em;
+    font-weight: 400;
+
+}
+
+.flex { 
+    display: flex; 
+    flex-direction: row; 
+}
+.btn-books{
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    z-index: 1;
+}
+.btn-books:hover{
+    color: #e25714!important;
+}
+
+.btn-books-info{
+    position: absolute;
+    bottom: 40px ;
+    left: 100px;
+    z-index: 1 ;
+    font-size: 1em;
+    border:none!important;
+    box-shadow: none;
+}
+.btn-books-info:hover{
+   color: #e25714!important;
+   
+}
+.btn[class*="btn-outline-"] {
+    padding-top: .3rem;
+    padding-bottom: .3rem;
+  
+}
+.product-right {
+    float: left;
+    vertical-align: top;
+    width: 49%;
+  }
+.custom-title-size{
+    padding-top:3%;
+    font-size: 1.2em!important;
+    font-weight: 400;
+}
+#custom-size{
+    font-size: 0.7em!important;
+    text-align : justify; 
+}
+.contanier-bot{
+    height: 200px;
+    width: 100%;
+}
+input[type="text"]{
+    border-bottom: 1px solid #f7f5f5;
+}
+.go-back {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: #222;
+    width: 0;
+    height: 0;
+    border-top: 60px solid #CAE00D!important;
+    border-right: 60px solid transparent!important;
+}
+.go-back:hover {
+    color: white;
+    border-top: 60px solid #e25714;
+    
+}
+.go-back i {
+    font-size: 20px;
+    position: relative;
+    top: -52px;
+    left: 10px;
+  }
+/* NOT FOUND SECTION  */
+#GetAlert{
+    display: none;
+    margin: auto;
+    padding: 0!important;
+}
+/* Animations */
+ .start-screen {
+    justify-content: center;
+    flex-flow: nowrap column;
+    min-height: 100vh;
+    margin: 0 auto;
+  }
+  .loading {
+    display: flex;
+    margin-top: 3px 0 !important;
+  }
+  .box-policies {
+    width: 60%;
+    background-color: #4285F4;
+    justify-content: center;
+    height: 4em;
+    margin-top:4%;
+    padding-top: 2%;    
+    color: white!important;
+    margin-right:1px;
+    font-size: 0.8em;
+}
+.box-policies a {
+    color: white!important;
+    margin-left:4%;
+    font-weight: bold;
+}
+/* End Animations */
+@media (max-width: 767.98px) { 
+    .Serch-Title{
+        font-size: 1em;
+        color:#4285f4;
+    }
+   
+ }
+ @media(max-width:575.98px){
+    .product-rating-details{
+        padding-left:0;
+      }
+      input[type="text"]{
+        font-size: 0.5em;
+    }
+    .box-policies {
+        width: 100%;
+    }
+}
+

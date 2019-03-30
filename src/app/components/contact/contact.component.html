@@ -1,0 +1,36 @@
+<body >
+<!-- <section class="my-5"> -->
+   <!-- Section heading -->
+    <div class="row">
+        <div class = "background"> 
+            <img  src="/assets/img/yay1.png" class="center" alt="photo">
+      <div class="col-lg-5 mb-lg-0 mb-4">
+        <!-- Form -->
+        <form (ngSubmit)="onSubmit(ContactoForm)" #ContactoForm="ngForm">
+            <input placeholder="Name" type="text" #name="ngModel"[(ngModel)]= "contactUser.name" name ="first"required/>
+            <span class= "validated" *ngIf ="name.touched && !name.valid">Please, enter a valid name.</span>
+            <input placeholder="Email address" type="email"#email = "ngModel"[(ngModel)]= "contactUser.email" name ="second"required/>
+            <span class= "validated" *ngIf ="email.touched && !email.valid">Please, enter a valid email.</span>
+            <input placeholder="Location" type="text" #location= "ngModel"[(ngModel)]= "contactUser.location" name ="third"required/>
+            <span class= "validated" *ngIf ="location.touched && !location.valid">Please, enter a valid name.</span>
+            <div class="flex">
+              <textarea name ="four" placeholder="Message" rows="1" required></textarea>
+              <span class= "validated"></span>
+            </div>
+          <button>Send</button>
+          </form>
+        <!-- Formr -->
+      </div>
+      <!-- Grid column -->
+
+
+      </div>
+      </div>
+
+    <!-- Grid row --> 
+<!-- </section> -->
+  
+ </body> 
+
+  
+

@@ -1,0 +1,68 @@
+<!-- <div class="d-sm-block">
+        <img class="logo shadow-sm  bg-white rounded"src="../assets/img/thebs_logo.png" alt="">
+    </div> -->
+<nav class="navbar navbar-expand-md  navbar-light bg-light navbar-light-color ">
+
+  <button class="navbar-toggler animatedBtn" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon icon-bar"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <div class="content-div">
+      <ul class="navbar-nav content-nav text-center">
+        <li class="nav-item ml-5">
+          <a [routerLink]="['/Home']" [routerLinkActive]="['active']" class="nav-link text-white " href="#">HOME
+            <span class="sr-only"> </span>
+          </a>
+        </li>
+        <li class="nav-item active ml-5">
+          <a [routerLink]="['/BookList']" [routerLinkActive]="['active']" class="nav-link text-white"
+            href="#">
+            <span class="sr-only">(current)</span>TO BUY</a>
+        </li>
+        <li class="nav-item active ml-5">
+          <a [routerLink]="['/PrivatePage']" [routerLinkActive]="['active']" class="nav-link text-white" href="#">
+            <span class="sr-only">(current)</span>MANAGE BOOKS</a>
+        </li>
+        <li>
+
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  <!-- Search form -->
+
+  <!-- Registrer -->
+  <div class="text-center" *ngIf="!isLogin">
+      <button  [routerLink]="['/Register']"type="button" data-toggle="modal" data-target="#modalRegisterForm" class="btn  btn-rounded icon-Header-li">
+        Sign in 
+      </button>
+    </div>
+  <!-- End Registrer -->
+
+  <!-- login -->
+ <div class="text-center"*ngIf="!isLogin">
+        <button  [routerLink]="['/Login']" type="button" data-toggle="modal" data-target="#modalLoginForm" class="btn btn-rounded icon-Header-li">
+          LogIn
+        </button>
+    </div>
+  <!-- End login  -->
+  <!-- Exit -->
+  <div class="text-center" *ngIf="isLogin">
+      <button  type="button"class="btn btn-rounded icon-Header-li"(click)= "onclickLogout()">
+       LogOut
+      </button>
+  </div>
+<!-- End Exit  -->
+
+
+  <!-- Shopping Cart -->
+  <li class="nav-item  icon-Header-li ml-5">
+    <a  id="cart"[routerLink]="['/ShopingCart']" href=""><i class="fas mr-sm-2 fa-shopping-cart icon-Header "></i><span class="badge">{{getQ()}}</span></a>
+  </li>
+
+  <!-- End icons -->
+</nav>
+<!--Navbar-->

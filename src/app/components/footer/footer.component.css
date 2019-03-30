@@ -1,0 +1,98 @@
+
+
+.page-footer {
+    height: 3.2em;
+}
+  
+strong{
+    color:white!important;
+    justify-content: center;
+    height: 4em;
+    margin-top:4%;
+    padding-top: 2%;    
+    color: white!important;
+    margin-right:1px;
+    font-size: 0.8em;
+    padding-bottom: 2px;
+}
+
+.pre_footer {
+    background-color:#FBD160;
+    bottom: 55px !important;
+    width: 40%;
+    margin:0;
+    padding-right: 25%;
+    z-index: 1;
+    height: 4em;
+}
+.icon-Prefooter{
+    color:white;
+    font-size: 1.5em;
+    margin-right:4%;
+   
+}
+.icon-Prefooter-mail{
+    color:white;
+    font-size: 1.7em;
+    margin-right:4%;
+}
+a[target=_blank] { 
+    color: #e4ecf6; 
+    font-weight: bold;
+} 
+
+@media (max-width: 575.98px) { 
+    .pre_footer {
+        display:none
+    }
+
+ }
+
+
+
+ /* Animations */
+ .start-screen {
+    justify-content: center;
+    flex-flow: nowrap column;
+    min-height: 100vh;
+    margin: 0 auto;
+  }
+  .loading {
+    display: flex;
+    margin-top: 3px 0 !important;
+  }
+  .box-policies {
+    width: 60%;
+    background-color: #4285F4;
+    justify-content: center;
+    height: 4em;
+    margin-top:4%;
+    padding-top: 2%;    
+    color: white!important;
+    margin-right:1px;
+    font-size: 0.8em;
+}
+.box-policies a {
+    color: white!important;
+    margin-left:4%;
+    font-weight: bold;
+}
+/* End Animations */
+@media (max-width: 767.98px) { 
+    .Serch-Title{
+        font-size: 1em;
+        color:#4285f4;
+    }
+   
+ }
+ @media(max-width:575.98px){
+    .product-rating-details{
+        padding-left:0;
+      }
+      input[type="text"]{
+        font-size: 0.5em;
+    }
+    .box-policies {
+        width: 100%;
+    }
+}
