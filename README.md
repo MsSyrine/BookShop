@@ -2,6 +2,11 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
+## Description
+this a frontend application for selling books online.the website user can add books to his shopping card a,authenticate either by using his mail account or log in using  his facebook or gmail account .
+the website user can also search for a specific book in the display page.
+the admin should be able to manage the books in the database .
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
