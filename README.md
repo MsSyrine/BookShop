@@ -37,15 +37,5 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ![demo0](https://user-images.githubusercontent.com/22801833/55279066-84902000-5314-11e9-9642-c682cf872261.PNG)
 ## books display page
 ![demo1](https://user-images.githubusercontent.com/22801833/55279069-8823a700-5314-11e9-8e82-48ed7a8431b7.PNG)
-## managing pages
-![demo2](https://user-images.githubusercontent.com/22801833/55279072-8bb72e00-5314-11e9-9435-74edab320a75.PNG)
-#adding a book
-![demo3](https://user-images.githubusercontent.com/22801833/55279073-8eb21e80-5314-11e9-82bf-beaaa7660df6.PNG)
-#deleting a book
-![demo4](https://user-images.githubusercontent.com/22801833/55279074-91ad0f00-5314-11e9-8f46-a53618027b8b.PNG)
-
-## sign in/log in pages
-![sign](https://user-images.githubusercontent.com/22801833/55279078-983b8680-5314-11e9-8bf9-563cfb3d6fc9.PNG)
-![login](https://user-images.githubusercontent.com/22801833/55279083-a7223900-5314-11e9-92ff-eff22bcd0194.PNG)
 
 
